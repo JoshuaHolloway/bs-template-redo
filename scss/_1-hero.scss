@@ -4,7 +4,8 @@ section#sub-hero {
 }
 
 section#hero { // relative 
-  background: darkorchid;
+  background: hsla(280, 61%, 50%, 1.0);
+  // opacity: 0.5;
   // border: dashed darkorange 10px;
   position: relative;
   height: 100vh;
