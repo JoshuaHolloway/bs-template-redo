@@ -142,11 +142,24 @@ nav .socials {
 }
 
 .nav-drawer > .center-container > .box-container {
+  position: relative;
   height: 50px;
   width: 100px;
   background: darkorange;
   display: grid;
   place-items: center;
+  overflow: hidden;
+}
+
+.nav-drawer > .center-container > .box-container > .box {
+  border: solid hotpink 2px;
+  position: absolute;
+  top: 50px;
+  font-size: 2.0rem;
+}
+
+.nav-drawer > .center-container > .box-container > .box a {
+  text-decoration: none;
 }
 
 section#sub-hero {
